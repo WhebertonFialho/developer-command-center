@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;600;700&family=Inter:wght@400;600;800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import "tailwindcss";
+
+@layer base {
+  body {
+    background-color: #0a0d14;
+    color: #e2e8f0;
+    font-family: system-ui, -apple-system, sans-serif;
+  }
+}
+
+@utility bg-cyber-bg { background-color: #0a0d14; }
+@utility bg-cyber-card { background-color: #111622; }
+@utility border-cyber-border { border-color: #1f293d; }
+@utility text-cyber-cyan { color: #00f0ff; }
+@utility border-cyber-cyan { border-color: #00f0ff; }
+@utility text-cyber-crimson { color: #ff0055; }
+@utility bg-cyber-crimson { background-color: #ff0055; }
+@utility text-cyber-text { color: #e2e8f0; }
+@utility text-cyber-muted { color: #64748b; }
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #0a0d14;
+  color: #e2e8f0;
+}
+
