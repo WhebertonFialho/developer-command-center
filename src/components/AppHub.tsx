@@ -6,7 +6,7 @@ export const AppHub: React.FC = () => {
     <section className="py-20 px-4 max-w-5xl mx-auto" id="apps">
       <div className="flex flex-col items-center mb-12">
         <h2 className="text-3xl font-mono font-bold text-cyber-cyan tracking-wider flex items-center gap-2">
-          <span className="text-cyber-crimson">&gt;</span> GOOGLE_PLAY_HUB
+          <span className="text-cyber-crimson">&gt;</span> PERSONAL_PROJECTS
         </h2>
         <div className="w-24 h-1 bg-cyber-crimson mt-2 shadow-glow-crimson" />
       </div>

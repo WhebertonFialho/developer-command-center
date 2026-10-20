@@ -41,6 +41,8 @@ O site foi desenvolvido do zero como um **repositório público open-source** pa
 
 ```text
 developer-command-center/
+├── public/
+│   └── data.json                 # Fonte de dados centralizada (Timeline & Apps)
 ├── src/
 │   ├── components/               # Componentes modulares
 │   │   ├── Navbar.tsx            # Terminal Status Bar
@@ -49,8 +51,6 @@ developer-command-center/
 │   │   ├── AppHub.tsx            # Hub de Aplicativos Mobile
 │   │   ├── TechStack.tsx         # Grid de tecnologias por segmento
 │   │   └── Footer.tsx            # Rodapé institucional
-│   ├── data/                     # Fonte de dados centralizada (Timeline & Apps)
-│   │   └── timelineData.ts
 │   ├── types/                    # Definições e interfaces TypeScript
 │   ├── App.tsx                   # Layout principal
 │   ├── index.css                 # Importações e utilitários do Tailwind v4

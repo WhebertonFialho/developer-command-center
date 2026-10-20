@@ -1,14 +1,9 @@
-export interface AppProject {
+export interface TimelineItem {
   id: string;
-  name: string;
-  tech: string;
+  period: string;
+  title: string;
+  subtitle: string;
+  category: string;
   description: string;
-  status: 'published' | 'in-development';
-  playStoreUrl?: string;
-}
-
-export interface TechItem {
-  name: string;
-  category: 'frontend' | 'backend' | 'database' | 'mobile';
-  level?: string;
+  tags: string[];
 }

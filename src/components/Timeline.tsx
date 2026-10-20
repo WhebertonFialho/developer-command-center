@@ -1,19 +1,36 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
-import { timelineData } from '../data/timelineData';
+import type { TimelineItem } from '../types';
 
 export const Timeline: React.FC = () => {
+  const [ timelineData, setTimelineData ] = useState<TimelineItem[]>([]);
   const [filter, setFilter] = useState<'all' | 'career' | 'academic' | 'project'>('all');
 
   const filteredItems = timelineData.filter(
     (item) => filter === 'all' || item.category === filter
   );
 
+  useEffect(() => {
+    fetch(`/data.json?t=${Date.now()}`)
+      .then((response) => {
+        if (!response.ok) {
+          throw new Error(`Falha ao carregar data.json: ${response.status}`);
+        }
+        return response.json();
+      })
+      .then((data: TimelineItem[]) => {
+        setTimelineData(data);
+      })
+      .catch((err) => {
+        console.error('Erro ao carregar timeline:', err);
+      });
+  }, []);
+
   return (
     <section className="py-20 px-4 max-w-5xl mx-auto" id="timeline">
       <div className="flex flex-col items-center mb-12">
         <h2 className="text-3xl font-mono font-bold text-cyber-cyan tracking-wider flex items-center gap-2">
-          <span className="text-cyber-crimson">&gt;</span> LINHA_DO_TEMPO.log
+          <span className="text-cyber-crimson">&gt;</span> TIME_LINE.log
         </h2>
         <div className="w-24 h-1 bg-cyber-crimson mt-2 shadow-glow-crimson" />
 

@@ -1,0 +1,164 @@
+[
+  {
+    "id": "pos-graduacao-engenharia-de-software-com-ia",
+    "period": "2026 - 2027",
+    "title": "Anhanguera Educacional",
+    "subtitle": "Pós-Graduação em Engenharia de Software com Inteligência Artificial",
+    "category": "academic",
+    "description": "Especialização em Engenharia de Software com ênfase em Inteligência Artificial, com aprofundamento no desenvolvimento de sistemas inteligentes, arquiteturas escaláveis, integração de modelos de aprendizado de máquina e aplicação prática de algoritmos de IA em soluções corporativas.",
+    "tags": ["EngenhariaDeSoftware", "InteligênciaArtificial", "MachineLearning", "ArquiteturaDeSistemas"]
+  },
+  {
+    "id": "meu-financeiro",
+    "period": "2026",
+    "title": "Meu Financeiro",
+    "subtitle": "Projeto Pessoal",
+    "category": "project",
+    "description": "Desenvolvimento e publicação de um aplicativo de controle financeiro com funcionamento offline, armazenamento local dos dados e foco em privacidade, simplicidade e autonomia do usuário.",
+    "tags": ["ReactNative", "SQLite", "DrizzleORM"]
+  },
+  {
+    "id": "monografia",
+    "period": "2026",
+    "title": "Monografia: Blockchain e Criptografia: fundamentos, desafios e perspectivas para a segurança da informação",
+    "subtitle": "Pesquisa Acadêmica",
+    "category": "academic",
+    "description": "Pesquisa sobre a evolução da criptografia aplicada a redes blockchain e DLT, analisando os impactos da computação quântica e alternativas criptográficas resistentes a ataques quânticos.",
+    "tags": ["Blockchain", "Criptografia", "SHA-256"]
+  },
+  {
+    "id": "unemat",
+    "period": "2023 - 2026",
+    "title": "UNEMAT - Universidade do Estado de Mato Grosso",
+    "subtitle": "Bacharelado em Ciência da Computação",
+    "category": "academic",
+    "description": "Formação superior em Ciência da Computação, com aprofundamento em desenvolvimento de software, engenharia de sistemas, bancos de dados, algoritmos, estruturas de dados e fundamentos da computação.",
+    "tags": ["CiênciaDaComputação", "DesenvolvimentoDeSoftware", "BancoDeDados", "EngenhariaDeSoftware"]
+  },
+  {
+    "id": "unisystem",
+    "period": "2021 - atual",
+    "title": "Unisystem",
+    "subtitle": "Desenvolvedor de Software",
+    "category": "career",
+    "description": "Atuação no desenvolvimento, evolução e manutenção de sistemas corporativos voltados à gestão do agronegócio, CRM, atendimento, logística e aplicações mobile, participando desde a análise de requisitos até a implantação de novas funcionalidades.",
+    "tags": ["Delphi", "React", "Oracle", "SQLite"]
+  },
+  {
+    "id": "ensinc",
+    "period": "2020 - 2021",
+    "title": "Ensinc",
+    "subtitle": "Desenvolvedor de Software",
+    "category": "career",
+    "description": "Desenvolvimento e manutenção de sistemas de gestão educacional, atuando na implementação de funcionalidades, regras de negócio, correção de problemas e otimização de consultas.",
+    "tags": ["C#", ".NET", "Kendo UI", "Oracle"]
+  },
+  {
+    "id": "formacao-python",
+    "period": "2021",
+    "title": "Formação Python",
+    "subtitle": "Alura",
+    "category": "academic",
+    "description": "Formação voltada ao desenvolvimento de aplicações com Python, abordando fundamentos da linguagem, orientação a objetos, desenvolvimento web, consumo de APIs e manipulação de dados.",
+    "tags": ["Python", "APIs"]
+  },
+  {
+    "id": "oracle-19c",
+    "period": "2020",
+    "title": "Formação Oracle 18C",
+    "subtitle": "TDS Tecnologia",
+    "category": "academic",
+    "description": "Formação focada na administração e desenvolvimento de soluções em Oracle Database, abrangendo SQL, PL/SQL, estruturas de banco de dados, consultas e procedimentos armazenados.",
+    "tags": ["Oracle18c", "PL/SQL"]
+  },
+  {
+    "id": "unimed",
+    "period": "2019 - 2020",
+    "title": "Unimed Rondonópolis",
+    "subtitle": "Analista de Sistemas",
+    "category": "career",
+    "description": "Atuação no suporte e evolução de sistemas hospitalares, desenvolvimento de ferramentas internas, criação de indicadores e tratamento de dados para apoio à tomada de decisão.",
+    "tags": ["Python", "Flask", "Oracle"]
+  },
+  {
+    "id": "kpers",
+    "period": "2019",
+    "title": "KPERS",
+    "subtitle": "Desenvolvedor de Software",
+    "category": "career",
+    "description": "Desenvolvimento e manutenção de sistema ERP voltado ao agronegócio, atuando na implementação de funcionalidades, regras de negócio, correção de problemas e manutenção do banco de dados.",
+    "tags": ["DataFlex", "SQL Server"]
+  },
+  {
+    "id": "pki",
+    "period": "2019",
+    "title": "PKI Sistemas",
+    "subtitle": "Consultor / Analista de TI",
+    "category": "career",
+    "description": "Atuação em implantação, suporte e consultoria de soluções fiscais e empresariais, incluindo treinamento de usuários, atendimento técnico e acompanhamento de clientes.",
+    "tags": ["Consultoria", "Implantação", "Suporte", "SAGE"]
+  },
+  {
+    "id": "pollysoft",
+    "period": "2018",
+    "title": "POLLYSOFT Software",
+    "subtitle": "Desenvolvedor de Software",
+    "category": "career",
+    "description": "Desenvolvimento de soluções automatizadas para extração, tratamento e armazenamento de dados provenientes de tribunais de justiça, com integração a bancos de dados.",
+    "tags": ["C#", ".NET Core", "WebScraping", "SQLServer"]
+  },
+  {
+    "id": "pontual",
+    "period": "2014 - 2018",
+    "title": "Pontual Sistemas",
+    "subtitle": "Desenvolvedor de Software",
+    "category": "career",
+    "description": "Participação no desenvolvimento de sistemas comerciais, fiscais, farmacêuticos e soluções embarcadas, atuando em diferentes projetos e ampliando a experiência em desenvolvimento de aplicações desktop, web e sistemas integrados.",
+    "tags": ["C#", "ASP.NET_MVC", "WPF", "Python", "Arduino", "RaspberryPi"]
+  },
+  {
+    "id": "santa-casa",
+    "period": "2013 - 2014",
+    "title": "Santa Casa de Misericórdia de Rondonópolis",
+    "subtitle": "Auxiliar de Analista de Informática",
+    "category": "career",
+    "description": "Atuação no suporte à infraestrutura de TI e na administração de sistemas hospitalares, prestando suporte aos usuários e mantendo ambientes de rede, computadores e sistemas corporativos.",
+    "tags": ["Infraestrutura", "Redes", "Suporte", "SistemasHospitalares", "MV2000"]
+  },
+  {
+    "id": "he-sistemas",
+    "period": "2012 - 2013",
+    "title": "HE Sistemas Empresariais",
+    "subtitle": "Auxiliar de Desenvolvedor de Software",
+    "category": "career",
+    "description": "Atuação no desenvolvimento, implantação e suporte de sistemas de gestão empresarial, participando da implementação de funcionalidades, geração de relatórios e treinamento de usuários.",
+    "tags": ["VisualBasic6", "MySQL", "CrystalReports"]
+  },
+  {
+    "id": "pindorama",
+    "period": "2011 - 2012",
+    "title": "Escola Estadual Pindorama",
+    "subtitle": "Ensino Medio Integrado, Informática",
+    "category": "academic",
+    "description": "Ensino médio integrado com ênfase em informática, abrangendo disciplinas de programação, redes, banco de dados e desenvolvimento de sistemas.",
+    "tags": ["Programação", "Redes", "BancoDeDados", "DesenvolvimentoDeSistemas"]
+  },
+  {
+    "id": "kends",
+    "period": "2009 - 2010",
+    "title": "Kends Lan House e Assistência Técnica",
+    "subtitle": "Técnico de Suporte em TI",
+    "category": "career",
+    "description": "Primeira experiência profissional na área de tecnologia, atuando com suporte técnico, manutenção de computadores, instalação de sistemas e atendimento ao cliente.",
+    "tags": ["SuporteDeTI", "Hardware", "Manutenção"]
+  },
+  {
+    "id": "antonio-ferreira-sobrinho",
+    "period": "2009 - 2010",
+    "title": "Escola Estadual Antonio Ferreira Sobrinho",
+    "subtitle": "Ensino Medio Integrado, Informática",
+    "category": "academic",
+    "description": "Ensino médio integrado com ênfase em informática, abrangendo disciplinas de programação, redes, banco de dados e desenvolvimento de sistemas.",
+    "tags": ["Programação", "Redes", "BancoDeDados", "DesenvolvimentoDeSistemas"]
+  }
+]
